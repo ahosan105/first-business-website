@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; font-size: 15px; line-height:30px;
+    background-color: #9bb3bb85;
+   
+
+}
+/* manu bar  */
+.nav{
+    
+    background-color:rgb(185, 66, 66);
+    display: flex;
+     overflow: hidden;
+    
+}
+.menu{
+    list-style: none;
+    padding-top: 30px;
+  
+}
+.menu li{
+    float: right;
+    padding:px;
+    margin-left: 70px;
+   
+}
+.menu li a{
+    font-weight: bold;
+    text-decoration:none;
+    font-size: 19px;
+}
+.menu li:hover{
+    background-color: rgb(248, 243, 239);
+}
+.menu li a:hover{ 
+    color: rgb(240, 3, 3);
+
+
+}
+
+
+/* home start  */
+.home1{
+    background-image: url("../img/bg-1.jpg");
+}
+.home2{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.6em;
+}
+.home3{
+    color: white;
+}
+.btn1{
+    padding: 30px;
+   background-color: blue;
+   border: rgb(206, 34, 11);
+    border-radius: 30px;
+    font-size: 30px;
+    margin-right: 10px;
+    color: white;
+}
+.btn1:hover{
+    padding: 30px;
+    background-color: black;
+    border: rgb(42, 42, 104);
+}
+.btn2{
+    padding: 30px;
+    background-color: black;
+    border: rgb(206, 34, 11);
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+}
+.btn2:hover{
+    padding: 30px;
+    background-color: blue;
+     border: rgb(42, 42, 104);
+ }
+}
+/* home end  */
+/* footer start */
+  .head_1{
+    background: linear-gradient(to left, #8b5a1885 30%, #11a1da 80%);
+    font-size: 40px;
+    background-color: red;
+
+  }
+  .footerTest{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    left: 10;
+    z-index: -1;
+  }
+  
+  #footerTest{
+   background-image: url("../img/footer-bg.jpg");
+    padding: 15px 0 15px 0;
+    font-size: 300px;
+  }
+  
+  .footerWrap{
+   margin: auto;
+   padding-inline-start: 10px;
+    width: 100%; 
+   text-align: center;
+  }
+  
+  .toe{
+    overflow: hidden;
+    display: inline-block;
+    width: 180px;
+    margin: 0 15px 15px 0;
+    font-size: 30px;
+    line-height: 1.6em;
+    vertical-align: top;
+  }
+  
+  .toe a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .toe a:hover{
+    text-decoration: underline;
+  }
+  
+  .toe h3{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+    letter-spacing: 1px;
+  }
+  
+  #legal{
+ 
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(185, 66, 66);
+  }
+  
+  #social a{
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    margin: 0 3px 3px 0;
+  }
+  
+ 
+
+/* footer end  */
